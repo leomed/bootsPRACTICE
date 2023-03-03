@@ -1,0 +1,270 @@
+
+h1 , h2 ,h3 ,h6 {
+font-family: 'Raleway';
+
+}
+
+
+h1 {
+	font-weight: bold;
+	color: black;
+}
+
+h2 {
+	color: 	white;
+	font-style: italic	;
+	font-size: 	2rem;
+}
+
+h3 {
+	font-weight: 	300;
+	color: 	white;
+}
+
+h6 {
+	font-size: 	2rem;
+	color: 	orange;
+	font-weight: 	600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* tittle */
+.container-fluid{
+	padding: 3% 15%;
+}
+
+#title {
+	background-image: url('../images/back.jpg');
+	overflow: hidden	;
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.doggy {
+	rotate: 	20deg;
+	height: 	600px;
+	position: relative;
+	left: 	100px;
+	top: 	100px;
+	display: none;
+	overflow: 	hidden	;
+}
+
+nav > a {
+	font-family: 'Raleway';
+	font-weight: 500;
+	color: black;
+}
+.navbar-brand {
+	font-size: 40px;
+	font-family: 'Kanit';
+	font-weight: 500;
+}
+.nav-item {
+	padding: 10px;
+	font-family: 'Kanit';
+	font-size: 20px;
+
+	font-weight: 300;
+	
+}
+
+.nav-item:hover {
+	background: darkorange;
+	transition: 3s all ease;
+	border-radius: 10px;
+
+}
+
+/* tittle */
+
+
+
+
+
+
+
+
+/* feature */
+.feature-icon {
+	font-size: 5rem;
+	color: orange;
+}
+
+.feature-icon:hover {
+	color: black;
+	transition: 2s all ease;
+	cursor: pointer;
+}
+.feature-text {
+	text-align: center;
+}
+
+/* feature */
+
+
+
+
+
+
+
+
+
+
+
+/* testimonio */
+
+#testimonials {
+	background: darkorange;
+	position: relative	;
+
+	text-align: center;
+}
+
+.test-img {
+	height: 150px;
+	width: 150px;
+	
+	border-radius: 100%;
+	margin-top: 20px;
+
+}
+.carousel-item {
+		padding: 	2% 10%;
+}
+
+
+em {
+	font-family: 	'Kanit';
+	font-weight: 	100;
+	color: 	white;
+	margin-left: 	10px;
+
+}
+
+.test-icon{
+	font-size: 	3.5rem; 
+		display: 	flex;
+	color: rgba(255,255, 255, 0.8);
+	justify-content: 	end;
+
+
+}
+/* testimonio */
+
+
+
+
+/* press */
+
+#press {
+	background: 	darkorange	;
+	text-align: 	center	;
+}
+
+.img-press {
+	margin-bottom: 5%;
+	width: 220px;
+	padding: 20px;
+}
+
+
+
+/* press */
+
+
+
+
+
+
+
+
+/* pricing */
+
+
+.pricing-tittle {
+	text-align: center	;
+	color: 	black;
+	font-family: 	'Raleway';
+	font-weight: 	200;
+	font-size: 	3rem;
+}
+#pricing {
+	padding: 	100px;
+}
+
+#pricing > p {
+	text-align: center	;
+	font-family: 	'Raleway';
+}
+
+.card-deck {
+	font-family: 	'Raleway';
+}
+
+
+
+.cont-last {
+	padding: 	20px;
+}
+
+
+
+.cont-last > button {
+	margin: 5px 20px;
+}
+
+
+
+
+/* pricing */
+
+
+
+
+
+/* footer */
+.cont-iconfoot {
+	padding: 	5%;
+}
+.foot-icon {
+	color: 	rgba(0,0, 0, 0.5);
+	margin: 1.5%;
+	font-size: 	1.5rem;
+}
+
+.foot-icon:hover {
+	color: darkorange;
+	transition: 	1s all ease;
+	cursor: pointer	;
+}
+
+.rights {
+	font-family: 	'Kanit';
+	color: 	white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+.derechos-cont {
+	height: 20px;
+	display: flex;
+	justify-content: 	center;
+	align-items: center	;
+		margin-top: 0px;
+		margin-bottom: 0px;
+}
